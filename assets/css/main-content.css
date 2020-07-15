@@ -1,0 +1,57 @@
+
+#main-content-container{
+    position: absolute;
+    top:0;
+    left:13vw;
+}
+header{
+    width:85vw;
+    height: 7vh;
+}
+
+#search_input{
+    border-radius: 80px ;
+    padding: 5px 10px;
+    border: 0;
+    color:black;
+    font-weight: bold;
+    outline: 0;
+}
+
+.fa-arrow-right{
+    color:white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ .fa-arrow-left{
+    color:white;
+}
+
+header{
+    margin-top: 1.5vh;
+}
+ 
+   
+i:hover{
+    cursor: pointer;
+}
+
+.fa-user{
+    color: white;
+}
+
+#col2 span{
+    color:white;
+    font-weight: bold;
+}
+#col2 span:hover{
+    text-decoration: underline;
+}
+
+
+
+#main-content-main{
+    margin-top: 10vh;
+    width: 100%;
+}
+

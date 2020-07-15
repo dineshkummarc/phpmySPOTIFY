@@ -1,0 +1,156 @@
+
+/*displays*/
+
+#now-playing-bar-container{
+    width:100vw;
+    background-color:#282828;
+    position:fixed;
+    bottom:0;
+}
+#now-playing-bar{
+    display:flex;
+    height: 12vh;
+    box-sizing: border-box;
+    padding:16px;
+}
+#now-playing-center{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:40vw;
+    max-width:700px;
+}
+
+#now-playing-bar .content{
+    width:100%;
+    height:57px;
+}
+
+
+.player-controls .buttons{
+    margin: 0 auto;
+    display: table;
+}
+
+.volume-bar{
+    width:220px;
+    position:absolute;
+    right:0;
+}
+#now-playing-right{
+    position:relative;
+    margin-top:15px;
+}
+
+/*volume style*/
+
+.volume-bar button img{
+    float:left;
+}
+.volume-bar-progress{
+    width:1250px;
+    position: absolute;
+    right: 20;
+    top:100;
+}
+
+/*progress bar css */
+.progress-bar{
+    width:100%;
+    height:12px;
+    display:flex;
+    cursor: pointer;
+
+}
+
+.playback-bar{
+    display:flex;
+    margin-left:1vh;
+    outline: 0;
+}
+
+.progress-bar-bg{
+    background-color:#404040;
+    height:4px;
+    width:100%;
+    border-radius:2px;
+}
+
+
+
+.progress{
+    background-color:#808080;
+    height:4px;
+    width:0px;
+    border-radius: 2px;
+}
+
+
+/*button css styles */
+
+.control-button{
+    background-color:transparent;
+    border:none;
+    vertical-align: middle;
+}
+
+.control-button img{
+    width:20px;
+    height:20px;
+    
+}
+.pause{
+    display:none;
+}
+
+.play img, 
+.pause img{
+    width:42px;
+    height:42px;
+}
+.control-button:hover, 
+.control-button:hover{
+    cursor: pointer;
+}
+
+
+button:focus {outline:0;}
+
+/*album art work css */
+
+.album-artwork{
+    height:100%;
+    max-width:57px; 
+    margin-right:15px;
+    float:left;
+    background-size:cover;
+}
+
+/*typograpgy css style */
+.progress-time{
+    font-size: 11px;
+    min-width:40px;
+    text-align:center;
+    color:#a0a0a0;
+}
+
+#now-playing-left .track-info{
+    display:table;
+}
+
+#now-playing-left .track-info .track-name{
+    margin:6px 0px;
+    display:inline-block;
+    width:100%;
+}
+
+#now-playing-left .track-info .artist-name{
+    color: #a0a0a0;
+    font-size: 12px;
+}
+
+/*utlilties css */
+.u-playing-left-right{
+    width:30vw;
+    min-width: 180px;
+}

@@ -1,0 +1,47 @@
+.browse-body-section h5{
+     font-weight: bold;
+    border-bottom: lightgrey solid 0.1px;
+}
+
+
+
+.browse-body-section{
+    margin-top:2vh;
+}
+
+.browse-body-sections-last-child{
+    margin-bottom: 12vh;
+}
+.browse-body-section h5{
+     font-weight: bold;
+    border-bottom: lightgrey solid 0.1px;
+}
+
+
+.browse-container{
+    margin-top: 2vh;
+    
+    
+}
+
+
+
+.browse-preview_img{
+    width:150px;
+    display: block;
+    box-shadow: 1px 1px 1px black;
+  -webkit-box-shadow: 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px black;
+}
+
+.browse-song-name{
+    
+    text-transform: uppercase;
+}
+
+.browse-artist-name{
+    position: relative;
+    top:-1vh;
+    opacity: 0.8;
+}
+

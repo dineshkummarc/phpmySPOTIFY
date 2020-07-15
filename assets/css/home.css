@@ -1,0 +1,48 @@
+
+#home-body{
+/*    color:white;*/
+    
+}
+
+
+.home-body-section{
+    margin-top:2vh;
+}
+
+.home-body-sections-last-child{
+    margin-bottom: 12vh;
+}
+.home-body-section h5{
+     font-weight: bold;
+    border-bottom: lightgrey solid 0.1px;
+}
+
+
+.home-container{
+    margin-top: 2vh;
+    
+    
+}
+
+
+
+.preview_img,
+.recently_played_preview_img{
+    width:250px;
+    display: block;
+    box-shadow: 1px 1px 1px black;
+  -webkit-box-shadow: 1px 1px 1px black;
+  -moz-box-shadow: 1px 1px 1px black;
+}
+
+.song-name,
+.playlist-name{
+    text-transform: uppercase;
+}
+
+.artist-name{
+    position: relative;
+    top:-1vh;
+    opacity: 0.8;
+}
+
