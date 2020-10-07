@@ -6,5 +6,7 @@ Used JavaScript, PHP,HTML,CSS and MySQL  to create a web based Spotify clone whi
 
 
 [![spotsearch-2.png](https://i.postimg.cc/gJ49HYDy/spotsearch-2.png)](https://postimg.cc/62719xFT) 
+
+[![liked-Songs.png](https://i.postimg.cc/6Q0bDMvt/liked-Songs.png)](https://postimg.cc/Y4vxFfRs)
  
 For video demo please watch:- https://www.youtube.com/
