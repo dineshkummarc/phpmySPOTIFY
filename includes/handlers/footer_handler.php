@@ -9,15 +9,12 @@
                 limit 2
                 ";
         $array = get_array($sql);
-//        print_r($array);
         if($data_name == "song name"){
-//            return $array[0][1];
-            return "hello";
+           return $array[0][1];
         }else if ($data_name == "img"){
             return str_replace("112","",$array[0][0]);
         }else if ($dat_name == "artist"){
-//            return $array[0][2];
-            return "hello";
+               return $array[0][2];
         }
         
     }
